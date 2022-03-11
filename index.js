@@ -39,10 +39,10 @@ function init() {
                 message: 'Usage',
             },
             {
-                type: 'checkbox',
+                type: 'list',
                 name: 'license',
                 message: 'What are your licenses?',
-                choices: ['MIT', 'APACHE'],
+                choices: ['MIT', 'APACHE', 'none'],
             },
             {
                 type: 'input',
@@ -73,11 +73,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
-
-
-// return fs.writeFileSync(path.join(process.cwd(),fileName),data);
-// inquirer.prompt(questions)
-// .then(answers => {
-//     writeToFile('README.md', generateMarkdown({ ...answers }));
-// })
