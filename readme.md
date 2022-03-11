@@ -19,8 +19,12 @@
   no intructions
   
   ## Usage
-  ![recording](./images/recording.mov)
   
+  
+
+https://user-images.githubusercontent.com/93945116/157974449-506c57ee-300c-4b4a-a950-0e4b601e577b.mov
+
+
   
   
   
